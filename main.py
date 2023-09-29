@@ -10,7 +10,6 @@ import PIL
 
 import os
 import tensorflow as tf
-from tqdm import tqdm
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
