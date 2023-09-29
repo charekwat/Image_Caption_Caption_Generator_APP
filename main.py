@@ -21,10 +21,7 @@ from tensorflow.keras.layers import Embedding, LSTM, add, Concatenate, Reshape, 
 from tensorflow.keras.applications import VGG16, ResNet50, DenseNet201
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
-import warnings
-import matplotlib.pyplot as plt
-import seaborn as sns
-from textwrap import wrap
+
 from keras.applications.densenet import preprocess_input
 
 def extract_features(filename):
